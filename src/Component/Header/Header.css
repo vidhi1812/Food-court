@@ -1,0 +1,45 @@
+.header{
+   height:35vw;
+   margin-top:2rem;
+   margin-left:10rem;
+   background: url("../../../public/header_img.png") no-repeat;
+   background-size: contain;
+   position:relative;
+
+}
+.head-cont{
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    gap:1.5vw;
+    max-width:50%;
+    bottom:12%;
+    left:6vw;
+    animation:fadeIn 6s;
+
+}
+.head-cont h2{
+    
+    color:white;
+    font-size:4rem;
+    margin-left:.7rem;
+    animation:fadeIn 8s;
+}
+.head-cont p{
+     color:white;
+     font-size:1.4rem;
+     margin-left:1.5rem;
+     animation:Animate 7s;
+
+}
+.btnhome{
+    border:none;
+    color:#747474;
+    font-weight:3rem;
+    padding:1rem 1.5rem;
+    background-color:white;
+    font-size:max(1vw,13px);
+    border-radius:50px;
+}
+

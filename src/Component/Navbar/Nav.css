@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.food{
+     /* padding:20px 0px; */
+      display: flex;
+       justify-content: space-between;
+       align-items: center;
+       /* background-color: black; */
+       
+}
+
+.ullist{
+     display: flex;
+      justify-content: center;
+       align-items: center;
+    
+}
+.ullist li{
+    list-style: none;
+    padding:2rem;
+    font-size:2rem;
+    cursor:pointer;
+    /* color:white; */
+}
+.ullist li:hover{
+color:blue;
+}
+
+.logo{
+   margin-left:4rem;
+   width:10rem;
+   height:4rem;
+   background-color:transparent;
+ 
+
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    margin-right: 8rem;
+    gap:3rem;
+    color:brown;
+    
+}
+
+
+.btn2{
+     width:7rem;
+     height:2.5rem;
+     font-size:1rem;
+     background:transparent;
+     color:darkgoldenrod;
+     font-weight: bold;
+     border: 2px solid rgb(69, 9, 9);
+     border-radius: .5rem;
+     cursor:pointer;
+ 
+}
+.btn2:hover{
+     color: red;
+     background-color: rgb(55, 12, 12);
+}
+
+.navbar-search{
+    position:relative;
+}
+.navbar-search .dot{
+     position: absolute;
+      background-color:tomato;
+      min-width:10px;
+      min-height:10px;
+      border-radius:5px;
+      top:-10px;
+      right:-10px;
+
+}
+.food .active{
+     padding-bottom: 3px;
+      border-bottom:4px solid green;
+}

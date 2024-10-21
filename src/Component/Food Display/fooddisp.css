@@ -1,0 +1,45 @@
+.food-display{
+    margin-top:30px;
+  
+  }
+  .food-display h2{
+    font-size:2.8rem;
+    animation:item-h2 8s;
+    background: linear-gradient(to right, tomato, green); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    color: transparent; 
+  
+
+
+  }@keyframes item-h2{
+    0%{
+      opacity:0;
+      color:black;
+    }
+    25%{
+      opacity:.25;
+      color:tomato;
+    }
+    50%{
+      opacity:.5;
+      color:green;
+    }
+    100%{
+      opacity:1;
+    color:rgb(2, 38, 2);
+    }
+  }
+
+  .food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    margin-top:30px;
+    gap:30px;
+    row-gap:50px;
+    margin-left:10rem;
+    margin-right:10rem;
+
+
+  }
