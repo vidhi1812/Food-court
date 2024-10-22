@@ -13,9 +13,9 @@ import { assets } from '../../Assests/Images/assets'
               !itemCount?<button className='add' onClick={()=>setItemCount(prev=>prev+1)}>Add</button> 
              :
               <div className='food-counter'>
-                <img  onClick={()=> setItemCount(prev=>prev-1)} src={assets.remove_icon_red} alt="" srcset="" />
-                <p>{itemCount}</p>
-                <img  onClick={()=> setItemCount(prev=>prev+1)} src={assets.add_icon_green} alt="" srcset="" />
+                <img  onClick={()=> setItemCount(prev=>prev-1)} src={assets.remove_icon_red} alt="" srcset="" className='remove' />
+                <p className='count'>{itemCount}</p>
+                <img  onClick={()=> setItemCount(prev=>prev+1)} src={assets.add_icon_green} alt="" srcset="" className='addi' />
 
               </div>
             }

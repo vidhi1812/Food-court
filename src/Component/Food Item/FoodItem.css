@@ -8,6 +8,14 @@
 
 
 }
+.food-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgba(216, 27, 27, 0.3); 
+}
+.food-item:active {
+    transform: scale(1.2); 
+    box-shadow: 0px 0px 30px rgba(197, 13, 13, 0.4); 
+}
 .food-item-img{
     width:100%;
     border-radius:15px 15px 0px 0px;
@@ -42,7 +50,7 @@ font-weight:bold;
 text-align: left;
 margin-left:1rem;
 }
-.add{
+ .add{
   width:10rem;
   height:3rem;
   background-color:orange;
@@ -50,6 +58,7 @@ margin-left:1rem;
   font-size: 1rem;
   font-weight: 1rem;
   margin-top:1rem;
+ 
 
 }
 .add:hover{
@@ -65,5 +74,21 @@ margin-left:1rem;
 }
 .food-item-cont{
     position:relative;
-    
+
+}
+.remove{
+   
+     margin-left:5rem;
+   
+
+}
+.addi{
+    margin-right:5rem;
+}
+.count{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: .5rem;
+    margin-top: .6rem;
+    padding: .3rem;
 }
