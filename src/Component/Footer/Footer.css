@@ -45,6 +45,7 @@
 .footer-cont-left li, .footer-cont-center li, .footer-cont-right li{
      list-style: none;
      margin-bottom:1rem;
+     cursor:pointer;
 }
 .logo1{
     margin-left:0rem;
@@ -65,4 +66,9 @@
  .footer-social-icons img{
     width:3rem;
     margin-right:1rem;
+ }
+ .footer hr{
+   width:100%;
+ 
+   margin:20px 0;
  }

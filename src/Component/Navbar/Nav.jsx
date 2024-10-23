@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "../Navbar/Nav.css"
-import logo from "../../../src/Assests/Images/restr.png"
+import logo from "../../../src/Assests/Images/foodie.jpg"
 import { assets } from '../../Assests/Images/assets';
 
  const Nav = () => {
