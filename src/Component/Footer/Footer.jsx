@@ -7,7 +7,7 @@ import { assets } from '../../Assests/Images/assets';
     <div className='footer' id='footer'>
    <div className="footer-cont">
      <div className="footer-cont-left">
-        <img src={logo} alt=""  className='logo'/>
+        <img src={logo} alt=""  className='logo1'/>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti fugiat possimus libero debitis, consequuntur maiores modi velit labore nobis necessitatibus dolorum delectus ducimus est repudiandae nihil sunt voluptatem corporis ratione.</p>
       <div className="footer-social-icons">
         <img src={assets.facebook_icon} alt="" />
