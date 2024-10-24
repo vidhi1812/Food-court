@@ -1,0 +1,25 @@
+.appdownload{
+   /* border:2px solid black; */
+     margin-top:5px;
+     font-size:2rem;
+     text-align:center;
+     font-weight:500;
+
+}
+.app-down-plat{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    margin-top:20px;
+    /* border:2px solid black; */
+
+
+}
+.app-down-plat img{
+    width: 10rem;
+    transition:0.5s;
+    cursor:pointer;
+}
+.app-down-plat img:hover{
+   transform:scale(1.5);
+}
