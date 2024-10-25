@@ -43,3 +43,45 @@
     border-radius:50px;
 }
 
+@media(max-width:1050px){
+
+    .header{
+        height:42vh;
+   margin-top:2rem;
+   margin-left:1rem;
+   margin-right:1rem;
+    } 
+    .head-cont{
+       
+       
+        bottom:25%;
+       
+        
+    
+    }
+    .head-cont h2{
+         font-size:3rem;
+         margin-top:2rem;
+         color:red;
+
+    }
+    .head-cont p{
+        color:white;
+        font-size:1.2rem;
+        margin-left:1.5rem;
+        align-items: start;
+        
+   
+   }
+   .btnhome{
+   
+    font-weight:2rem;
+    padding:1rem 1.5rem;
+    background-color:white;
+    font-size:1rem;
+    border-radius:40px;
+    width:8rem;
+    margin-left:3rem;
+}
+
+}
