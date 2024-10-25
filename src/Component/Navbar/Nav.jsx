@@ -3,7 +3,7 @@ import "../Navbar/Nav.css"
 import logo from "../../../src/Assests/Images/foodie.jpg"
 import { assets } from '../../Assests/Images/assets';
 
- const Nav = () => {
+ const Nav = ({setShowlogin}) => {
 
   const[menu, setMenu]=useState(" ");
   return (
@@ -21,7 +21,7 @@ import { assets } from '../../Assests/Images/assets';
                   <img src={assets.basket_icon}alt="" />
                   <div className="dot"></div>
                 </div>
-                <button className="btn2">Sign In</button>
+                <button className="btn2" onClick={()=>setShowlogin(true)}>Sign In</button>
             </div>
        
     </div>

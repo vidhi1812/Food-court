@@ -2,7 +2,7 @@
     display:flex;
     flex-direction:column;
     margin-left:1rem;
-    margin-top:2rem;
+    margin-top:1.9rem;
 }
 .explore-menu h1{
     color:#262626;
@@ -65,4 +65,22 @@
         color:red;
         border-bottom:4px solid green;
         padding:2px;
+    }
+    @media (max-width:1050px){
+        .explore-menu{
+            margin-top:0em;
+        }
+
+        .explore-menu h1{
+            margin-left:4rem
+          
+        }
+        .menu-txt{
+           max-width:100%;
+           
+    
+          font-size:1rem;
+         
+        }
+
     }

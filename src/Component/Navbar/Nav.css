@@ -79,3 +79,18 @@ color:blue;
      padding-bottom: 3px;
       border-bottom:4px solid green;
 }
+@media (max-width:1050px){
+     .logo{
+          width:10rem;
+          height:4rem;
+     }
+     .ullist li{
+          padding:2rem;
+          font-size:1rem;
+     }
+     .navbar-right{
+          margin-right: 4rem;
+           gap:1rem;
+     }
+  
+}
