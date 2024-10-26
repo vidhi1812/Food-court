@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "../Navbar/Nav.css"
 import logo from "../../../src/Assests/Images/foodie.jpg"
 import { assets } from '../../Assests/Images/assets';
+import { Link } from 'react-router-dom';
 
  const Nav = ({setShowlogin}) => {
 
@@ -18,7 +19,7 @@ import { assets } from '../../Assests/Images/assets';
             <div className="navbar-right">
                 <img src={assets.search_icon} alt=""  className='search'></img>
                 <div className="navbar-search">
-                  <img src={assets.basket_icon}alt="" />
+                 <Link></Link> <img src={assets.basket_icon}alt="" />
                   <div className="dot"></div>
                 </div>
                 <button className="btn2" onClick={()=>setShowlogin(true)}>Sign In</button>
