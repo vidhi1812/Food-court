@@ -19,7 +19,7 @@ import { Link } from 'react-router-dom';
             <div className="navbar-right">
                 <img src={assets.search_icon} alt=""  className='search'></img>
                 <div className="navbar-search">
-                 <Link></Link> <img src={assets.basket_icon}alt="" />
+                 <Link to='/cart'><img src={assets.basket_icon}alt="" /></Link> 
                   <div className="dot"></div>
                 </div>
                 <button className="btn2" onClick={()=>setShowlogin(true)}>Sign In</button>
