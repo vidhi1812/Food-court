@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
   const[menu, setMenu]=useState(" ");
   return (
     <div className="food">
-        <img src={logo} alt=""  className='logo'/>
+      <Link to='/'>  <img src={logo} alt=""  className='logo'/></Link>
         <ul className='ullist'>
             <li  onClick={()=>setMenu("home")} className={menu === "home" ? "active": " "} >Home</li>
             <li onClick={()=>setMenu("menu")} className={menu === "menu" ? "active": " "}>Menu</li>
