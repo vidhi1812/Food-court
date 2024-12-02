@@ -29,18 +29,25 @@ const StoreContextProvider=(props)=>{
        return newCart;
    });
  };
- const getTotalCartAmount=()=>{
-  let totalA=0;
-  for(const item in cartItems){
+ const getTotalCartAmount = () => {
+  let totalA = 0;
 
-    if(cartItems[item]>0){
-      let itemInfo=food_list.find((product)=>product._id === item);
-      totalA += itemInfo.price*cartItems[item];
-    }
-    
+  for (const item in cartItems) {
+      if (cartItems[item] > 0) {
+          // Find the product in food_list
+          const itemInfo = food_list.find((product) => product._id === item);
+
+          // Check if itemInfo is valid
+          if (itemInfo) {
+              totalA += itemInfo.price * cartItems[item];
+          } else {
+              console.warn(`Product with ID ${item} not found in food_list.`);
+          }
+      }
   }
-return totalA;
- }
+
+  return totalA;
+};
 
    const  contextValue={
 food_list,
